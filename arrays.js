@@ -24,12 +24,17 @@ function accessElementInArray(array, index) {
   return array[index]; // accesses the element in array at the given index
 }
 
+function removeElementFromBeginningOfArray(array) {
+  var newArray = array.slice(1); // returns the array with the first element removed w/o mutating/altering the original
+  return newArray;
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift(); // returns the array with the first element removed by mutating/altering the original
   return array;
 }
 
-function removeElementFromBeginningOfArray(array) {
+function removeElementFromEndOfArray(array) {
   var newArray = array.slice(1); // returns the array with the first element removed w/o mutating/altering the original
   return newArray;
 }
