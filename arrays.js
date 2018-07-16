@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array;
 }
 
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift(element); // accesses the element in array atthe given index
+function accessElementInArray(array, index) {
+  array.unshift([element]); // accesses the element in array atthe given index
   return array;
 }
