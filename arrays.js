@@ -25,6 +25,6 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift(); // adds to beginning of array by mutating/altering the original
+  array.shift(); // returns the array with the first element removed by mutating/altering the original
   return array;
 }
