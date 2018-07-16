@@ -33,3 +33,8 @@ function removeElementFromBeginningOfArray(array) {
   array.slice(1); // returns the array with the first element removed without mutating/altering the original
   return array;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift(); // returns the array with the first element removed by mutating/altering the original
+  return array;
+}
